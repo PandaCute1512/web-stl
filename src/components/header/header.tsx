@@ -7,13 +7,17 @@ import { Link } from 'react-router-dom';
 const Header: any = () => {
     return (
         <div className="header">
+            <div className="main-logo" >
             <img src={logo} alt="logo" /> 
+            <h1 className=''>ĐIỆN TỬ C&T</h1>
+            </div>
+
             <div className="header-right">
                 <Link to="/" className="introduce" >GIỚI THIỆU</Link>
                 <Link to="/product" className="product" >SẢN PHẨM</Link>
-                <a className='solution' href="#">GIẢI PHÁP</a>
-                <a className='software' href="#">PHẦN MỀM</a>
-                <a className='contact' href="#">LIÊN HỆ</a>
+                <Link to="" className='solution' >GIẢI PHÁP</Link>
+                <Link to="" className='software' >PHẦN MỀM</Link>
+                <Link to="" className='contact' >LIÊN HỆ</Link>
             </div>
         </div>
     );
