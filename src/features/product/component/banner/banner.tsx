@@ -4,6 +4,7 @@ import './banner.scss'
 const Banner: any = () => {
     return (
         <div className="banner">
+           
         </div>
 
 
