@@ -1,0 +1,68 @@
+
+.header {
+    overflow: hidden;
+    background-color: #499380;
+    padding: 20px 10px;
+    }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 17px;
+  }
+  #logo {
+    width: 125px;
+    height: 125px;
+    margin: 10px 10px 10px 10px;
+  }
+
+
+  .header a.tencty {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    color: white; 
+  }
+  .header a.introduce {
+    color: white;
+    font-weight: bold;
+  }
+  .header a.product {
+    color: white;
+    font-weight: bold;
+  }
+  .header a.solution {
+    color: white;
+    font-weight: bold;
+  }
+  .header a.software {
+    color: white;
+    font-weight: bold;
+  }
+  .header a.contact {
+    color: white;
+    font-weight: bold;
+  }
+  .header a:hover {
+    background-color: white;
+    color: #05a070;
+  }
+  .header-right {
+    float: right;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  
