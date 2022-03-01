@@ -27,4 +27,36 @@ input[type=text] {
   form {
     text-align: center;
   }
-  
+ .btnkiosk {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border-color: black;
+  box-shadow: 5px 5px 20px #999696;
+  background: white;
+  background-image: url(/asset/kiosk.png);
+  background-size: 100%;
+ }
+ .btnmaythungan {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border-color: black;
+  box-shadow: 5px 5px 20px #999696;
+  background: white;
+  background-image: url(/asset/maythungan.png);
+  background-size: cover;
+ }
+ .btnphanmem {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border-color: black;
+  box-shadow: 5px 5px 20px #999696;
+  background: white;
+  background-image: url(/asset/phanmem.png);
+  background-size: 100%;
+ }
