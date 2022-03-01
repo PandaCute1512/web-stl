@@ -1,4 +1,3 @@
-
 import Header from '../../components/header/header';
 import logo from '../../asset/logo.png';
 import React, { Component } from "react";
