@@ -1,5 +1,5 @@
 import { FC, Suspense } from "react";
-import { BrowserRouter, Routes, Route , Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import App from "../App"
 import NotFoundComponent from "../components/notfound/notfound";
 import Product from "../features/product";
@@ -15,7 +15,7 @@ const Routelink: FC = () => {
 
             </Route>
             /** */
-                /** Route Not Found */
+            /** Route Not Found */
             <Route path="*" element={<NotFoundComponent />} />
           </Route>
         </Routes>
