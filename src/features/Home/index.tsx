@@ -5,7 +5,7 @@ const Home: any = () => {
     return (
         <div className="">
             <Header />
-            {/* <br />
+            <br />
             <br />
             <br />
             <div className=''>
@@ -14,7 +14,7 @@ const Home: any = () => {
                     <h1 className='label1'>C&T</h1>
                     <h2 className='label2'>GIẢI PHÁP CHO MỌI THANH TOÁN ONLINE</h2>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 

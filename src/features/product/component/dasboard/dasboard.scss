@@ -28,7 +28,6 @@ input[type=text] {
     text-align: center;
   }
  .btnkiosk {
-  text-align: center;
   height: 70px;
   width: 70px;
   border-radius: 50px;
@@ -39,7 +38,6 @@ input[type=text] {
   background-size: 100%;
  }
  .btnmaythungan {
-  text-align: center;
   height: 70px;
   width: 70px;
   border-radius: 50px;
@@ -47,10 +45,9 @@ input[type=text] {
   box-shadow: 5px 5px 20px #999696;
   background: white;
   background-image: url(/asset/maythungan.png);
-  background-size: cover;
+  background-size: 100%;
  }
  .btnphanmem {
-  text-align: center;
   height: 70px;
   width: 70px;
   border-radius: 50px;
@@ -60,3 +57,19 @@ input[type=text] {
   background-image: url(/asset/phanmem.png);
   background-size: 100%;
  }
+ .btncategory {
+   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+.div-btn{
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  margin-left:1rem;
+  margin-right:1rem;
+  display: flex;
+  flex-direction: column;
+}
