@@ -1,25 +1,12 @@
 
 .header {
-  height: 100px;
-    overflow: hidden;
-    background-color: #499380;
-    padding: 3px 3px ; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    // background-image: url(/asset/Header.png);
-    background-size: cover;
+  @apply bg-[#499380] py-4
+
 
     }
 .main-logo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-size: 11px;
+  @apply flex flex-grow font-[Roboto];
+  
     }
   .header a {
     float: left;
@@ -30,11 +17,6 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 17px;
-  }
-  #logo {
-    width: 30px;
-    height: 30px;
-    margin: 10px 10px 10px 10px;
   }
 
   .header a.introduce {
@@ -60,9 +42,6 @@
   .header a:hover {
     background-color: white;
     color: #05a070;
-  }
-  .header-right {
-    float: right;
   }
   @media screen and (max-width: 500px) {
     .header a {

@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 
 const Header: any = () => {
     return (
-        <div className="header">
-            <div className="main-logo" >
-            <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} /> 
-            <h1 className=''>ĐIỆN TỬ C&T</h1>
+        <div className="header flex flex-row">
+            <div className="flex flex-row" >
+                <img className='h-24 w-auto ' src={`${process.env.PUBLIC_URL}/asset/logo.png`} />
+                <h1 className=''>ĐIỆN TỬ C&T</h1>
             </div>
-
-            <div className="header-right">
+            <div className='flex flex-grow'></div>
+            <div className="">
                 <Link to="/" className="introduce" >GIỚI THIỆU</Link>
                 <Link to="/product" className="product" >SẢN PHẨM</Link>
                 <Link to="" className='solution' >GIẢI PHÁP</Link>
