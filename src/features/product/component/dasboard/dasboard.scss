@@ -18,8 +18,7 @@ input[type=text] {
     font-size: 20px;
     background-color: white;
     background: url('/asset/search.png');
-    height: 30px;
-    background-position: 10px 10px; 
+    background-position: 7px 7px  ; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
   
@@ -32,10 +31,9 @@ input[type=text] {
   width: 70px;
   border-radius: 50px;
   border-color: black;
-  box-shadow: 5px 5px 20px #999696;
-  background: white;
-  background-image: url(/asset/kiosk.png);
-  background-size: 100%;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
+  background-image: url(/asset/iconkiosk.png);
  }
  .btnmaythungan {
   height: 70px;
@@ -44,8 +42,7 @@ input[type=text] {
   border-color: black;
   box-shadow: 5px 5px 20px #999696;
   background: white;
-  background-image: url(/asset/maythungan.png);
-  background-size: 100%;
+  background-image: url(/asset/iconmaythungan.png);
  }
  .btnphanmem {
   height: 70px;
@@ -54,16 +51,19 @@ input[type=text] {
   border-color: black;
   box-shadow: 5px 5px 20px #999696;
   background: white;
-  background-image: url(/asset/phanmem.png);
-  background-size: 100%;
+  background-image: url(/asset/iconsoftware.png);
+
  }
  .btncategory {
-   text-align: center;
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
  }
-
+.iconn{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .div-btn{
   justify-content: center;
   font-weight: bold;
@@ -73,3 +73,83 @@ input[type=text] {
   display: flex;
   flex-direction: column;
 }
+.btnkiosk:hover{
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.btnmaythungan:hover{
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.btnphanmem:hover{
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.p-items {
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product-card {
+// width: 250px;
+// height: 350px;
+left: 50px;
+top: 50px;
+background: #FFFFFF;
+box-shadow: 10px 10px 33px rgba(0, 0, 0, 0.43), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+box-sizing: border-box;
+line-break: auto;
+}
+.product-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.product {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.product-name {
+width: 250px;
+height: 18px;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 50px;
+color: #000000;
+}
+.detail {
+width: 250px;
+height: 35px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 46px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+.btn-contact {
+width: 150px;
+height: 35px;
+background: #4ADCB0;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 25px;
+font-weight: 700;
+font-family: Arial;
+font-size: 17px;
+}
+.img {
+  width: 100%;
+  padding: 20px;
+}
+.container {
+  padding: 50px 0px;
+}
+.btn-contact:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+
