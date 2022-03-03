@@ -4,6 +4,7 @@ import './dasboard.scss';
 import kioskimg from '../../../../asset/kioskimg.png';
 import maythunganimg from '../../../../asset/maythunganimg.png';
 import softwareimg from '../../../../asset/softwareimg.png';
+import { Link } from 'react-router-dom';
 
 const Dasboard: any = () => {
     return (
@@ -36,30 +37,42 @@ const Dasboard: any = () => {
                 <br />
                 <div className='product'>
                     <div className='product-card'>
-                        <div className='fix'>
-                            <img src={kioskimg} alt="kioskimg" />
+                        <div className='w-64 h-32'>
+                            <img src={kioskimg} alt="kioskimg" className='w-64 h-32' />
                         </div>
-                        <p className='product-name'>Kiosk</p>
-                        <p className='detail'>Chi Tiết</p>
-                        <button className='btn-contact'>Liên Hệ Ngay</button>
+                        <div className='container'>
+                            <p className='product-name'>Kiosk</p>
+                            <Link to="/" className='detail'>Chi tiết</Link><br />
+                            <Link to="/">
+                                <button className='btn-contact'>Liên Hệ Ngay</button>
+                            </Link>
+                        </div>
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
                             <img src={maythunganimg} alt="maythunganimg" />
                         </div>
-                        <p className='product-name'>Máy Thu Ngân</p>
-                        <p className='detail'>Chi Tiết</p>
-                        <button className='btn-contact'>Liên Hệ Ngay</button>
+                        <div className='container'>
+                            <p className='product-name'>Máy Thu Ngân</p>
+                            <Link to="/" className='detail'>Chi tiết</Link><br />
+                            <Link to="/">
+                                <button className='btn-contact'>Liên Hệ Ngay</button>
+                            </Link>
+                        </div>
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
                             <img src={softwareimg} alt="softwareimg" />
                         </div>
-                        <p className='product-name'>Phần mềm</p>
-                        <p className='detail'>Chi tiết</p>
-                        <button className='btn-contact'>Liên Hệ Ngay</button>
+                        <div className='container'>
+                            <p className='product-name'>Phần Mềm</p>
+                            <Link to="/" className='detail'>Chi tiết</Link><br />
+                            <Link to="/">
+                                <button className='btn-contact'>Liên Hệ Ngay</button>
+                            </Link>
+                        </div>
                     </div>
-                    
+
                 </div>
                 <br />
                 <br />
