@@ -3,8 +3,8 @@ import './banner.scss'
 
 const Banner: any = () => {
     return (
-        <div className="banner">
-           <img src={`${process.env.PUBLIC_URL}/asset/banner.jpg`}></img>
+        <div >
+           <img className="w-full h-72" src={`${process.env.PUBLIC_URL}/asset/banner.jpg`}/>
         </div>
 
 

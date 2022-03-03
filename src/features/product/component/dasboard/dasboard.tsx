@@ -15,15 +15,15 @@ const Dasboard: any = () => {
                 <br />
                 <div className='btncategory mt-12'>
                     <div className='div-btn'>
-                        <button className='iconn btnkiosk'></button>
+                        <button className=''><img src={`${process.env.PUBLIC_URL}/asset/iconkiosk.png`} alt="" /></button>
                         <p className='p-items'>Kiosk</p>
                     </div>
                     <div className='div-btn'>
-                        <button className='iconn btnmaythungan'></button>
+                        <button className=''><img src={`${process.env.PUBLIC_URL}/asset/iconmaythungan.png`} alt="" /></button>
                         <p className='p-items'>Máy Thu Ngân</p>
                     </div>
                     <div className='div-btn'>
-                        <button className='iconn btnphanmem'></button>
+                        <button className=''><img src={`${process.env.PUBLIC_URL}/asset/iconsoftware.png`} alt="" /></button>
                         <p className='p-items'>Phần Mềm</p>
                     </div>
                 </div>
