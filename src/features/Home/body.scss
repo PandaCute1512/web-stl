@@ -1,10 +1,10 @@
-img.logo2 {display: block; margin-left: auto; margin-right: auto;}
-h1.label1 {display: block; margin-left: auto; margin-right: auto;}
-h2.label2 {display: block; margin-left: auto; margin-right: auto;}
+img.logo2 {display: block; margin-left: auto; margin-right: auto;  }
+h1.label1 {display: block; margin-left: auto; margin-right: auto;font-variant: arial; font-weight: bold; font-size: 50px; text-shadow: 0px 4px 4px rgba(0,0,0,0.25);}
+h2.label2 {display: block; margin-left: auto; margin-right: auto; font-variant: arial; font-weight: bold; font-size: 40px;text-shadow: 0px 4px 4px rgba(0,0,0,0.25);}
 .body{
     text-align:center;
     width:auto;
-    height:500px;
+    height: 150px;
     line-height:10px;
     text-align:center;
     }
@@ -23,4 +23,16 @@ h2.label2 {display: block; margin-left: auto; margin-right: auto;}
         color:white;
         .parent-slide{padding:15px;}
         img{display: block;margin:auto;}
+      }
+      .video{
+        width: auto;
+        height: auto;
+        justify-content: center;
+       
+        display: flex;
+        
+        margin-top: 20px;       
+      }
+      .top{
+        margin-top: 50px;
       }
