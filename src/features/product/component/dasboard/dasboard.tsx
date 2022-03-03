@@ -1,9 +1,6 @@
 import React from 'react';
 import Banner from '../banner/banner';
 import './dasboard.scss';
-import kioskimg from '../../../../asset/kioskimg.png';
-import maythunganimg from '../../../../asset/maythunganimg.png';
-import softwareimg from '../../../../asset/softwareimg.png';
 import { Link } from 'react-router-dom';
 
 const Dasboard: any = () => {
@@ -35,7 +32,7 @@ const Dasboard: any = () => {
                 <div className='product'>
                     <div className='product-card'>
                         <div className="">
-                            <img src={kioskimg} alt="kioskimg" className='img-card' />
+                            <img src={`${process.env.PUBLIC_URL}/asset/kioskimg.png`} className='img-card' />
                         </div>
                         <div className='container'>
                             <p className='product-name'>Kiosk</p>
@@ -47,7 +44,7 @@ const Dasboard: any = () => {
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
-                            <img src={maythunganimg} alt="maythunganimg" className='img-card' />
+                            <img  className='img-card'src={`${process.env.PUBLIC_URL}/asset/maythunganimg.png`} />
                         </div>
                         <div className='container'>
                             <p className='product-name'>Máy Thu Ngân</p>
@@ -59,7 +56,7 @@ const Dasboard: any = () => {
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
-                            <img src={softwareimg} alt="softwareimg" className='img-card'/>
+                            <img  className='img-card' src={`${process.env.PUBLIC_URL}/asset/softwareimg.png`}/>
                         </div>
                         <div className='container'>
                             <p className='product-name'>Phần Mềm</p>

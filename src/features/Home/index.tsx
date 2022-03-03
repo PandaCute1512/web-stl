@@ -14,11 +14,8 @@ const Home = () => {
      
         <div className="top">
             <Header />
-            <br/>
-            <br/>
-            <br/>
             <div className=''>
-         <div  className='logo2'><img src={logo} alt="#"className='logo2' /> </div>
+         <div  className='logo2'><img className='logo2' /> </div>
             <div className='body'>
                 <h1 className='label1'>C&T</h1>
                 <h2 className='label2'>GIẢI PHÁP CHO MỌI THANH TOÁN ONLINE</h2>             
@@ -32,22 +29,22 @@ const Home = () => {
               <h2> Công Ty C&T </h2>
               <Slider {...settings}>
                 <div className='slider'>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
                 <div>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
                 <div>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
                 <div>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
                 <div>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
                 <div>
-                <img src={logo} alt="logo2"className='logo2' />
+                <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} alt="logo2"className='logo2' />
                 </div>
               </Slider>
             </div>

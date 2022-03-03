@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.scss'
-import logo from '../../asset/logo.png';
+// import logo from '../../asset/logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -8,7 +8,7 @@ const Header: any = () => {
     return (
         <div className="header">
             <div className="main-logo" >
-            <img src={logo} alt="logo" /> 
+            <img src={`${process.env.PUBLIC_URL}/asset/logo.png`} /> 
             <h1 className=''>ĐIỆN TỬ C&T</h1>
             </div>
 

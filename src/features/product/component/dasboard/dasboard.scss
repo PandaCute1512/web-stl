@@ -1,14 +1,5 @@
 .sanpham {
-width: 100%;
-height: 10px;
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 50px;
-text-align: center;
-color: #000000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @apply text-center drop-shadow-lg text-4xl font-medium;
 }
 
 input[type=text] {
@@ -17,7 +8,7 @@ input[type=text] {
     border-radius: 50px;
     font-size: 20px;
     background-color: white;
-    background: url('/asset/search.png');
+    // background: url('/asset/search.png');
     background-position: 7px 7px  ; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -33,7 +24,7 @@ input[type=text] {
   border-color: black;
   background: #FFFFFF;
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
-  background-image: url(/asset/iconkiosk.png);
+  // background-image: url(/asset/iconkiosk.png);
  }
  .btnmaythungan {
   height: 70px;
@@ -42,7 +33,7 @@ input[type=text] {
   border-color: black;
   box-shadow: 5px 5px 20px #999696;
   background: white;
-  background-image: url(/asset/iconmaythungan.png);
+  // background-image: url(/asset/iconmaythungan.png);
  }
  .btnphanmem {
   height: 70px;
@@ -51,7 +42,7 @@ input[type=text] {
   border-color: black;
   box-shadow: 5px 5px 20px #999696;
   background: white;
-  background-image: url(/asset/iconsoftware.png);
+  // background-image: url(/asset/iconsoftware.png);
 
  }
  .btncategory {
@@ -89,7 +80,7 @@ font-weight: bold;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .product-card {
-  @apply grid justify-items-center bg-gray-100 drop-shadow-2xl rounded-xl hover:bg-gray-300 pt-4;
+  @apply grid justify-items-center bg-gray-100 drop-shadow-2xl rounded-xl hover:bg-gray-300 pt-4 cursor-pointer;
   .img-card{
     @apply w-96 h-auto
   }
