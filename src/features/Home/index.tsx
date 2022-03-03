@@ -53,11 +53,6 @@ const Home = () => {
     );
    
     }
-
- 
-    
-     
-   
 export default Home  ;
 var settings = {
     dots: true,
