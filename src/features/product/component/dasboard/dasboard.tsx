@@ -10,16 +10,13 @@ const Dasboard: any = () => {
     return (
         <div className="">
             <Banner />
-            <body>
+            <body className=''>
+                <div className='mt-8 grid justify-items-center '>
+                    <input className='' type="text" name="search" placeholder="Search..."/>
+                </div>
+                <p className='sanpham mt-8'>Sản Phẩm</p>
                 <br />
-                <br />
-                <br />
-                <form>
-                    <input type="text" name="search" placeholder="Search..."></input>
-                </form>
-                <p className='sanpham'>Sản Phẩm</p>
-                <br />
-                <div className='btncategory'>
+                <div className='btncategory mt-12'>
                     <div className='div-btn'>
                         <button className='iconn btnkiosk'></button>
                         <p className='p-items'>Kiosk</p>
@@ -37,8 +34,8 @@ const Dasboard: any = () => {
                 <br />
                 <div className='product'>
                     <div className='product-card'>
-                        <div className='w-64 h-32'>
-                            <img src={kioskimg} alt="kioskimg" className='w-64 h-32' />
+                        <div className="">
+                            <img src={kioskimg} alt="kioskimg" className='img-card' />
                         </div>
                         <div className='container'>
                             <p className='product-name'>Kiosk</p>
@@ -50,7 +47,7 @@ const Dasboard: any = () => {
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
-                            <img src={maythunganimg} alt="maythunganimg" />
+                            <img src={maythunganimg} alt="maythunganimg" className='img-card' />
                         </div>
                         <div className='container'>
                             <p className='product-name'>Máy Thu Ngân</p>
@@ -62,7 +59,7 @@ const Dasboard: any = () => {
                     </div>
                     <div className='product-card'>
                         <div className='fix'>
-                            <img src={softwareimg} alt="softwareimg" />
+                            <img src={softwareimg} alt="softwareimg" className='img-card'/>
                         </div>
                         <div className='container'>
                             <p className='product-name'>Phần Mềm</p>
